@@ -70,7 +70,7 @@ class ZeroButton extends StatelessWidget {
     double h = MediaQuery.of(context).size.height;
     double w = MediaQuery.of(context).size.width;
     return Padding(
-      padding: EdgeInsets.fromLTRB(w * 0.01, h * 0.01, w * 0.01, h * 0.01),
+      padding: EdgeInsets.fromLTRB(w * 0.01, h * 0.01, w * 0.03, h * 0.01),
       child: GestureDetector(
         onTap: () {},
         child: Container(

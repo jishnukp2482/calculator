@@ -18,7 +18,7 @@ class CalcPage extends StatelessWidget {
         children: [
           SizedBox(
             //  color: AppColors.blue,
-            height: h * 0.4,
+            height: h * 0.35,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
